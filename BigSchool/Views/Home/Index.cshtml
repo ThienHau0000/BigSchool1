@@ -1,4 +1,4 @@
-﻿@model IEnumerable<BigSchool.ViewModels.CoursesViewModel>
+﻿@model BigSchool.ViewModels.CoursesViewModel
 @{
     ViewBag.Title = "Home Page";
     <link href="~/Content/Site.css" rel="stylesheet" />
@@ -31,7 +31,7 @@
                     </span>
                     @if (Model.ShowAction)
                     {
-                        <button data-course-id="@course.ID" class="btn btn-default btn-sm js-toggle-attendance">Going?</button>
+                        <button data-course-id="@course.Id" class="btn btn-default btn-sm js-toggle-attendance">Going?</button>
                     }
                 </div>
             </li>

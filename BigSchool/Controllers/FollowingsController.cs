@@ -10,7 +10,7 @@ using System.Web.Http;
 
 namespace BigSchool.Controllers
 {
-    public class FollowingsController
+    public class FollowingsController : ApiController
     {
         private readonly ApplicationDbContext _dbContext;
         public FollowingsController()
